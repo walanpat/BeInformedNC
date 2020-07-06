@@ -7,11 +7,13 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <h1>TITLE</h1>
+      <div className="Title"><h1>TITLE</h1></div>
+      <span className="headerBar">
       <h2>Home</h2>
       <h2>About</h2>
       <h2>Voter Info</h2>
       <h2>Contact Us</h2>
+      </span>
       <Homepage/>
 
     </div>

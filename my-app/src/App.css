@@ -5,4 +5,8 @@
 .headerBar{
     display:flex;
     justify-content: space-evenly;
+    background-color: #554640
+}
+.homepagetest{
+    background-color: #8da7be
 }

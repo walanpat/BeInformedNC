@@ -1,12 +1,22 @@
-.Title{
-    display: flex;
-    justify-content: center;
-}
 .headerBar{
     display:flex;
     justify-content: space-evenly;
-    background-color: #554640
+    align-items: center;
+    background-color: #554640;
+    color: white;
 }
-.homepagetest{
-    background-color: #8da7be
+a{
+    color: black;
+    text-decoration: none;
+}
+.homepagePrompt{
+    display: flex;
+    justify-content: center;
+}
+.homeInput{
+    display: flex;
+    justify-content: center;
+}
+input{
+    width:50%;
 }

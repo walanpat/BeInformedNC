@@ -7,14 +7,15 @@ const Homepage = () =>{
         <div className='homepagePrompt'>
             <h1>Find the Candidates on your Ballot</h1>
         </div>
-        <span className='homeInput'>
+        <div className='homeInput'>
         <form>
         <input placeholder='Your Address Here' />
         </form>
+        <br/>
         <button>
             Submit
         </button>
-        </span>
+        </div>
         </div>
     );
 }

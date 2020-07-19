@@ -5,7 +5,7 @@
     background-color: #554640;
     color: white;
 }
-a{
+a:hover,a:visited,a:link,a:active{
     color: black;
     text-decoration: none;
 }
@@ -16,4 +16,18 @@ a{
 .homeInput{
     display: flex;
     justify-content: center;
+}
+.testImage{
+    display: flex;
+    height: 10%;
+    width: 10%;
+}
+.test1Image{
+    display: flex;
+    height: 10%;
+    width: 10%;
+}
+.aboutPics{
+    display: flex;
+    flex-direction: row;
 }

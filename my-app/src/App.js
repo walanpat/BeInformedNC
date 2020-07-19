@@ -1,11 +1,12 @@
 import React from "react";
 // import logo from "./logo.svg";
-import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import Homepage from "./pages/Homepage";
-import About from "./pages/About"
+import About from "./pages/About";
 import VoterInfo from "./pages/VoterInfo";
-import ContactUs from './pages/ContactUs'
+import ContactUs from './pages/ContactUs';
 
 function App() {
   return (
@@ -34,4 +35,5 @@ function App() {
     </div>
   );
 }
+
 export default App;

@@ -17,17 +17,15 @@ a:hover,a:visited,a:link,a:active{
     display: flex;
     justify-content: center;
 }
-.testImage{
-    display: flex;
-    height: 10%;
-    width: 10%;
-}
-.test1Image{
-    display: flex;
-    height: 10%;
-    width: 10%;
-}
 .aboutPics{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+.captions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
 }

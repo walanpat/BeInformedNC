@@ -32,7 +32,7 @@ const ContactUs = () => {
                 <br></br>
                 
                 <h2 style={headerStyle} >
-                Are you a candidate or voter who wants to get in touch? Click below to DM us on social media, or email us at the address below!
+                Are you a candidate or voter who wants to get in touch? Click below to get in contact with us on social media, or email us at the address below!
                 </h2>
                 
                 <br></br>

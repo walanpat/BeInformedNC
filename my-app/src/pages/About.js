@@ -4,71 +4,34 @@ import chris from './images/closeup.jpg'
 import nick from './images/SeniorPicture.jpg'
 import will from './images/will1.png'
 import alan from './images/alan.jpg'
-import back from './images/background6.png'
-
-
-
-var imageStyle = {
-    width: 135,
-    height: 175,
-    justifyContent: "center",
-    alignItems: "center"
-}
-
-var HeadingStyle = {
-    textAlign: "center", 
-    color:"#ff3333",
-}
-
-var paragraphStyle = {
-    textAlign: "left",
-    fontSize: 25,
-    color: "#0015bc"
-}
-
-var Background = {
-    backgroundImage: `url(${back})`,
-    backgroundRepeat: "round",
-    backgroundSize: "cover",
-    textAlign: "center", 
-}
 
 const About = () => {
     return (
-        <div>
-        <div style={Background}>
-            <br></br>
-            <br></br>
-            <h2 style={{textAlign: "center", color: "#ff3333",}}>About Us </h2>
-            <br></br>
+        <div className='aboutPage'>
+            <div>
+              <h2 className='aboutHeading'>About Us </h2>
+            </div>
             
-            <h3 style={{textAlign: "center", color: "#0015bc",}}> 
-            Our mission at BeInformedNC is to help North Carolina residents of all ages be more
-            informed of their electoral candidates at the state, district, and local level. 
-            <br></br>
-            <br></br>
-            We have 3 main goals for this project:
-            <br></br>
-            <br></br>
+            <div>
+              <h3 className='aboutText'> 
+                Our mission at BeInformedNC is to help North Carolina residents of all ages be more
+                informed of their electoral candidates at the state, district, and local level. 
+              </h3>
+            </div>
 
-            <h4 style={{textAlign: "left", color: "#0015bc",}}> 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            1. Help NC residents to be more informed of their candidates
-            <br></br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            2. Increase turn out rate for midterm and primary elections
-            <br></br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            3. Help NC residents register to vote
-            </h4>
-            </h3>
-            <br></br>
+            <div>
+              <h3 className='aboutText'>
+                We have 3 main goals for this project:
+              </h3>
+            </div>
+
+            <div>
+              <h4 className='aboutText'> 
+                1. Help NC residents to be more informed of their candidates <br></br>
+                2. Increase turn out rate for midterm and primary elections <br></br>
+                3. Help NC residents register to vote 
+              </h4>
+            </div>
 
 
             
@@ -77,123 +40,90 @@ const About = () => {
             <br></br>
             </h2>
 
-            <h4 style={{textAlign: "center", color: "#0015bc",}}>
-            <br></br>
-            We are a group of college students from universities such as UNC Chapel Hill, Purdue, etc.
-            We get our information from reliable sources such as (insert sources here).
-            We emphasized non-partisanship in creating this website - we want to inform voters, not sway them.
-            <br></br>
-            </h4>
-            <br></br>
-            <h2 style={HeadingStyle}> 
-            Founder
-            </h2>
-            <br></br>
+            <div>
+              <h4 className='aboutText'>
+                We are a group of college students from universities such as UNC Chapel Hill, Purdue, etc.
+                We get our information from reliable sources such as (insert sources here).
+                We emphasized non-partisanship in creating this website - we want to inform voters, not sway them.
+              </h4>
+            </div>
 
-        
-            <img src={headshot} alt="Headshot" style={imageStyle}/>
-            <br></br>
-            <p style={{textAlign: "center", fontSize: 25, color: "#0015bc"}}> Haley Rose </p>
-            <br></br>
+            <div>
+              <h2 className='aboutHeading'> 
+                Founder
+              </h2>
+            </div>
 
-            <h2 style={HeadingStyle}> 
-            Research Associates
-            </h2>
-            <br></br>
+            <div className='aboutSections'> 
+              <div>
+                <img src={headshot} alt="Headshot" className="aboutImage"/>
+                <p className='aboutName'> Haley Rose </p>
+              </div>
+            </div>
 
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <img src={headshot} alt="Headshot" style={imageStyle}/>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <img src={headshot} alt="Headshot" style={imageStyle}/>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <img src={headshot} alt="Headshot" style={imageStyle}/>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <img src={headshot} alt="Headshot" style={imageStyle}/>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <p style={paragraphStyle}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;Alex Pinder &nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;&nbsp; Margaret Pinder &nbsp;&nbsp;&nbsp; 
-                                    &nbsp;&nbsp;&nbsp;Andrés Otero
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    Quynh Nguyen
-                                    </p>
-            <br></br>
-            <br></br>
+              <h2 className='aboutHeading'> 
+                Research Associates
+              </h2>
             
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <img src={headshot} alt="Headshot" style={imageStyle}/>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <img src={headshot} alt="Headshot" style={imageStyle}/>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <img src={headshot} alt="Headshot" style={imageStyle}/>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <img src={headshot} alt="Headshot" style={imageStyle}/>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-
-            <p style={paragraphStyle}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;Lily Hornberger &nbsp;&nbsp;&nbsp;
-                                
-            <span style={{textAlign: "left", fontSize: 18}}>Mary Agnes Rothenberger </span>
-            <span style={paragraphStyle}>&nbsp;&nbsp;&nbsp; Ashley Riley
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp; Holly Rose</span>
-                                    </p>
-                                    
-                                
-
-            <br></br>
+            <div className='aboutSections'>
+              <div>
+                <img src={headshot} alt='Headshot' className='aboutImage'/>
+                <p className='aboutName'>Alex Pinder</p>
+              </div>
+              <div>
+                <img src={headshot} alt='Headshot' className="aboutImage"/>
+                <p className='aboutName'>Margaret Pinder</p>
+              </div>
+              <div>
+                <img src={headshot} alt='Headshot' className="aboutImage"/>
+                <p className='aboutName'>Andrés Otero</p>
+              </div>
+              <div>
+                <img src={headshot} alt='Headshot' className="aboutImage"/>
+                <p className='aboutName'>Quynh Nguyen</p>
+              </div>
+              <div>
+                <img src={headshot} alt='Headshot' className="aboutImage"/>
+                <p className='aboutName'>Lily Hornberger</p>
+              </div>
+              <div>
+                <img src={headshot} alt='Headshot' className="aboutImage"/>
+                <p className='aboutName'>Mary Agnes Rothenberger</p>
+              </div>
+              <div>
+                <img src={headshot} alt='Headshot' className="aboutImage"/>
+                <p className='aboutName'>Ashley Riley</p>
+              </div>
+              <div>
+                <img src={headshot} alt='Headshot' className="aboutImage"/>
+                <p className='aboutName'>Holly Rose</p>
+              </div>
+            </div>
             
-            <br></br>
-            
-            <h2 style={HeadingStyle}> 
-            Web Developers
-            </h2>
-            <br></br>
+            <div>
+              <h2 className='aboutHeading'> 
+                Web Developers
+              </h2>
+            </div>
 
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <img src={chris} alt="Christian" style={{width: 135, height: 175, justifyContent: "center", alignItems: "center"}}/>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <img src={nick} alt="Nick" style={{width: 135, height: 175, justifyContent: "center", alignItems: "center"}}/>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <img src={will} alt="Will" style={{width: 135, height: 175, justifyContent: "center", alignItems: "center"}}/>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <img src={alan} alt="Alan" style={{width: 135, height: 175, justifyContent: "center", alignItems: "center"}}/>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-
-            <br></br>
-            <p style={paragraphStyle}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;Christian Vallat &nbsp;&nbsp;&nbsp;
-                                    &nbsp;&nbsp;&nbsp; Nick Georgia &nbsp;&nbsp;&nbsp; 
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Will Rogers
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    Alan Patterson
-                                    </p>
-
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            </div>           
+            <div className="aboutSections">
+              <div>
+                <img src={chris} alt="Christian" className="aboutImage"/>
+                <p className='aboutName'>Christian Vallet</p>
+              </div>
+              <div>
+                <img src={nick} alt="Nick" className="aboutImage"/>
+                <p className='aboutName'>Nick Georgiou</p>
+              </div>
+              <div>
+                <img src={will} alt="Will" className="aboutImage"/>
+                <p className='aboutName'>Will Rogers</p>
+              </div>
+              <div>
+                <img src={alan} alt="Alan" className="aboutImage"/>
+                <p className='aboutName'>Alan Patterson</p>
+              </div>
+            </div>          
         </div>
     );
 }

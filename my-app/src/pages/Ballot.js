@@ -1,41 +1,11 @@
 import React from 'react';
-import headshot from './images/headshot.png'
-import back from './images/background8.jpg'
-
-
-var Background = {
-    backgroundImage: `url(${back})`,
-    backgroundRepeat: "round",
-    backgroundSize: "cover",
-}
+//import headshot from './images/headshot.png'
+//import back from './images/background8.jpg'
 
 const Ballot = () => {
     return (
-        <div style={Background}>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+        <div>
+            <h1>This is the ballot</h1>
         </div>
     );
 }

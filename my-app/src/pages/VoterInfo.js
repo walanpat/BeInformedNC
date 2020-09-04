@@ -1,74 +1,19 @@
-import React from 'react';
-import back from './images/background6.png'
-import Button from 'react-bootstrap/Button';
+import React from "react";
 
 const VoterInfo = () => {
-    return (
-        <div style={{backgroundImage: `url(${back})`, backgroundRepeat: 'round', backgroundSize: "cover"}}>
-            <div>
-            <br></br>
-            <br></br>
-            <br></br>
-                <h2 style={{color: "#ff3333"}}>
-                How to vote via absentee ballot
-                <br></br>
-                <br></br>
-                How to register to vote 
-                <br></br>
-                <br></br>
-                Nearest voting location
-                <br></br>
-                <br></br>
-                Significance of each elected position
-                <br></br>
-                <br></br>
-                Other useful websites 
-                
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                
-             
-                </h2>
-                <br></br>
-
-                
-                
-                {/* <Button variant="primary" type="submit" onclick={window.location.href = 'instagram.com'}>
-                    See Info
-                </Button> */}
-
-
-                
-            </div>    
-        </div>
-    );
-}
+  return (
+    <div className="infoPage">
+      <div>
+        <ul style={{ color: "#ff3333" }}>
+          <li>How to vote via absentee ballot</li> 
+          <li>How to register to vote</li>
+          <li>Nearest voting location</li>
+          <li>Significance of each elected position </li>
+          <li>Other useful websites</li>
+        </ul>
+      </div>
+    </div>
+  );
+};
 
 export default VoterInfo;

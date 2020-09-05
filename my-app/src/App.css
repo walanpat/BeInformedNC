@@ -19,7 +19,7 @@
 }
 
 html {
-  background: url("pages/images/background6.png") no-repeat center center fixed;
+  background: #ffffff no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -27,7 +27,7 @@ html {
 }
 
 .homePage {
-    background-color: transparent;
+    background-color: #ffffff;
     background-size: cover;
 }
 
@@ -42,7 +42,7 @@ html {
 }
 
 .aboutPage {
-  background: url("pages/images/background6.png");
+  background-color: #ffffff;
   background-size: cover;
 }
 
@@ -80,11 +80,13 @@ html {
 }
 
 .infoPage {
-  background: url("pages/images/background6.png");
+  background-color: #ffffff;
+  background-size: cover;
 }
 
 .contactPage {
-  background: url("pages/images/background6.png");
+  background-color: #ffffff;
+  background-size: cover;
 }
 
 .contactImage {

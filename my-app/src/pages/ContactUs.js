@@ -17,21 +17,24 @@ const ContactUs = () => {
       <div>
         <div>
           <img src={insta} alt="instaLogo" className="contactImage" />
-          <span className="contactBody">Instagram:</span>
+          <span className="contactBody">Instagram:@</span>
           <a href="http://instagram.com/kingjames" className="contactLink">
-            @BeInformedNC
+            BeInformedNC
           </a>
         </div>
         <div>
           <img src={fb} alt="fbLogo" className="contactImage" />
-          <span className="contactBody">Facebook:</span>
+          <span className="contactBody">Facebook:@</span>
           <a href="http://facebook.com/LeBron" className="contactLink">
-            @Be_Informed_NC
+            Be_Informed_NC
           </a>
         </div>
         <div>
           <img src={mail} alt="emailLogo" width="75" height="75" />
-          <span className="contactBody">Email: @beinformednc@gmail.com</span>
+          <span className="contactBody">E-mail:@</span>
+          <a href="mailto:BeInformedNC@sample.com" subject="HTML link" className="contactLink">
+            BeInformedNC@sample.com
+          </a>
         </div>
       </div>
     </div>

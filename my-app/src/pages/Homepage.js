@@ -1,7 +1,7 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-const API_key = "AIzaSyDiAo_PfbCBFGXVs4Y5FH3NVnot8frLF7U"
+//const API_key = "AIzaSyDiAo_PfbCBFGXVs4Y5FH3NVnot8frLF7U"
 
 const Homepage = () =>{
   return (

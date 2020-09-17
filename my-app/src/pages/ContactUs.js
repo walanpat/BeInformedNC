@@ -30,7 +30,7 @@ const ContactUs = () => {
           </a>
         </div>
         <div>
-          <img src={mail} alt="emailLogo" width="75" height="75" />
+          <img src={mail} alt="emailLogo" className="contactImage" />
           <span className="contactBody">E-mail:@</span>
           <a href="mailto:BeInformedNC@sample.com" subject="HTML link" className="contactLink">
             BeInformedNC@sample.com

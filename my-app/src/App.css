@@ -29,6 +29,10 @@ html {
 .homePage {
     background-color: #ffffff;
     background-size: cover;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .homeItem {
@@ -44,6 +48,10 @@ html {
 .aboutPage {
   background-color: #ffffff;
   background-size: cover;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .aboutSections {
@@ -64,13 +72,24 @@ html {
 .aboutHeading {
   text-align: center;
   color: #ff3333;
-  height: 50pt;
+  padding-top: 2%;
+  padding-bottom: 1%;
 }
+
 .aboutName {
   text-align: center;
   font-size: 10pt;
   color: #0015bc;
   word-wrap: break-word;
+  font-weight: bold;
+}
+
+.aboutSchool {
+  text-align: center;
+  font-size: 10pt;
+  color: #0015bc;
+  word-wrap: break-word;
+  font-style: italic;
 }
 
 .aboutText {
@@ -82,16 +101,24 @@ html {
 .infoPage {
   background-color: #ffffff;
   background-size: cover;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .contactPage {
   background-color: #ffffff;
   background-size: cover;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .contactImage {
-    width: 75pt;
-    height: 75pt;
+    width: 5%;
+    height: 5%;
     justify-content: center;
     align-items: center;
 }

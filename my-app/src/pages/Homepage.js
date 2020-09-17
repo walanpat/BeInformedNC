@@ -5,8 +5,9 @@ import Button from "react-bootstrap/Button";
 //const API_key = "AIzaSyDiAo_PfbCBFGXVs4Y5FH3NVnot8frLF7U"
 
 const Homepage = () => {
-  function getAddress() {
-    var data;
+  const getAddress= (data) => {
+    //This is destructuring but we need a text parsing function to properly send in the fetch call with the noted input
+    const {City, Street} = data;
     console.log("getAddress called");
 
       /*Add error handling to catch invalid addresses
